@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mzaini30.absenguru">
+    package="com.mzaini30.absengurusmp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

@@ -135,8 +135,7 @@ db.nama.each(function(x){
 	// // console.log(x.nama)
 	$('.isi-tabel').append('<tr>\
 		<td>'+x.nama+'</td>\
-		<td><input type="radio" name="" class="radio" value="pagi" '+( x.waktu == 'pagi' ? 'checked' : '' )+' disabled></td>\
-		<td><input type="radio" name="" class="radio" value="sore" '+( x.waktu == 'sore' ? 'checked' : '' )+' disabled></td>\
+		<td>' + x.waktu + '</td>\
 		<td><a href="?id='+x.id+'&action=ubah&nama='+x.nama+'&waktu='+x.waktu+'" class="btn btn-warning btn-sm">Edit</a></td>\
 		<td><a href="?action=hapus&id='+x.id+'" class="btn btn-danger btn-sm">Hapus</a></td>\
 	</tr>')
@@ -223,7 +222,7 @@ db.nama.each(function(x){
 
 // ini untuk menampilkan database absen dalam bentuk tabel
 
-ke_excel = 'http://muhammadzaini.com/rekap-absen/'
+ke_excel = 'https://muhammadzaini.com/absen-guru-2/'
 share_id = []
 share_id_guru = []
 share_tanggal = []

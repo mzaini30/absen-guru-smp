@@ -1,4 +1,4 @@
-package com.mzaini30.absenguru;
+package com.mzaini30.absengurusmp;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // my banner ad id: ca-app-pub-2878374163061282/6615438108
         // change to your own ad id
         // Change in MainActivity.java and activity_main.xml
-        MobileAds.initialize(this, "ca-app-pub-2238217504982060/5526457023");
+        MobileAds.initialize(this, "ca-app-pub-2238217504982060/3984949416");
         mAdView = (AdView)findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
