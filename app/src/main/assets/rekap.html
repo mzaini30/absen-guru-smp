@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rekap - Absen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<br>
+		<p><a href="index.html" class="btn btn-default btn-sm">&larr; Kembali</a></p>
+		<h1>Rekap Data</h1>
+		<hr>
+		<!-- <table class="table">
+			<thead>
+				<tr>
+					<th>Bulan</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Januari 2018</td>
+					<td><a href="#!" class="btn btn-success btn-sm">Cetak</a></td>
+				</tr>
+			</tbody>
+		</table> -->
+		<p><a href="#!" class="btn btn-default ke-excel disabled">Ekspor Data</a></p>
+		<table class="table table-buat-excel">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Nama Guru</th>
+					<th>Tanggal</th>
+				</tr>
+			</thead>
+			<tbody class="tabel-hadir">
+				<!-- <tr>
+					<td>1</td>
+					<td>1</td>
+					<td>12</td>
+				</tr> -->
+			</tbody>
+		</table>
+	</div>
+	<br>
+	<p class="text-center">Aplikasi ini dibuat oleh <a href="https://api.whatsapp.com/send?phone=6281545143654">Zen</a></p>
+	<br>
+	<script type="text/javascript" src="bin/jquery.min.js"></script>
+
+	<!-- export table to excel -->
+
+	<!-- <script type="text/javascript" src="bin/jquery.base64.js"></script>
+	<script type="text/javascript" src="bin/html2canvas.js"></script>
+	<script type="text/javascript" src="bin/tableExport.js"></script> -->
+
+	<!-- database -->
+
+	<script type="text/javascript" src="bin/dexie.js"></script>
+	<script type="text/javascript" src="bin/app.js"></script>
+</body>
+</html>

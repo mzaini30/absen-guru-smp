@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Database - Absen</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="bin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bin/style.css">
+</head>
+<body>
+	<div class="container">
+		<br>
+		<p><a href="index.html" class="btn btn-default btn-sm">&larr; Kembali</a></p>
+		<div class="edit-data" id="edit-data">
+			<hr>
+			<h1>Edit Data</h1>
+			<hr>
+			<p><input type="text" name="" class="form-control ubah-nama" placeholder="Masukkan nama"></p>
+			<p><input type="text" name="" class="form-control ubah-id" style="display: none;"></p>
+			<p>
+				<select class="ubah-waktu">
+					<option value="pagi">Pagi</option>
+					<option value="sore">Sore</option>
+				</select>
+			</p>
+			<p class='text-center'>
+				<!-- <a href="#!" class="btn btn-success tombol-ubah">Ubah</a> -->
+				<button class="btn btn-success tombol-ubah">Ubah</button>
+				<a href="#!" class="btn btn-danger tombol-batal-ubah">Batal</a>
+			</p>
+			<br>
+		</div>
+		<h1>Database</h1>
+		<hr>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Nama</th>
+					<th>Pagi</th>
+					<th>Sore</th>
+					<th></th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody class="isi-tabel" id="isi-tabel">
+				<!-- <tr>
+					<td>Zen</td>
+					<td><input type="radio" name="" class="radio" value="pagi" checked disabled></td>
+					<td><input type="radio" name="" class="radio" value="sore" disabled></td>
+					<td><a href="#!" class="btn btn-warning btn-sm">Edit</a></td>
+					<td><a href="#!" class="btn btn-danger btn-sm">Hapus</a></td>
+				</tr> -->
+			</tbody>
+		</table>
+		<p class="text-center">
+			<a href="#!" class="btn btn-default tambahkan">Tambah Baru</a>
+			<!-- <a href="#!" class="btn btn-success">Simpan</a> -->
+		</p>
+		<br>
+		<div class="tambah-baru" id="tambah-baru">
+			<hr>
+			<h1>Tambahkan Data</h1>
+			<hr>
+			<p><input type="text" name="" class="form-control tambah-nama" placeholder="Masukkan nama" class="tambah-nama"></p>
+			<p>
+				<select class="tambah-waktu">
+					<option value="pagi">Pagi</option>
+					<option value="sore">Sore</option>
+				</select>
+			</p>
+			<p class='text-center'>
+				<a href="#!" class="btn btn-success tombol-tambahkan">Tambahkan</a>
+				<a href="#!" class="btn btn-danger tombol-batal">Batal</a>
+			</p>
+			<br>
+		</div>
+	</div>
+	<br>
+	<p class="text-center">Aplikasi ini dibuat oleh <a href="https://api.whatsapp.com/send?phone=6281545143654">Zen</a></p>
+	<br>
+	<script type="text/javascript" src="bin/jquery.min.js"></script>
+	<script type="text/javascript" src="bin/sweetalert.min.js"></script>
+	<script type="text/javascript" src="bin/dexie.js"></script>
+	<script type="text/javascript" src="bin/app.js"></script>
+</body>
+</html>
